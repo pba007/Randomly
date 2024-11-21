@@ -13,7 +13,7 @@ The script is written in **Python 3** and requires 3 pip-installable libraries: 
 
 Randomly moving pixels is an old project of mine – originally brought to life in Turbo Pascal – and now implemented and improved over many iterations in Python. This might be the last version of it; an earlier version was used to act as my final project for CS50P.<br>
 
-Randomly is not a game as such, even though it has some similarities as the speed of movement and also the colour trail of randomly moving pixels can be controlled via the cursor keys.<br>
+Randomly is not a game as such, even though it has some similarities as the speed of movement and also the colour trail of randomly moving pixels can be controlled with the cursor keys.<br>
 When the program is executed, it displays the control keys:<br>
 
 ***ESC: Exit from program***<br>
@@ -28,8 +28,8 @@ And also requests two numerical inputs from the user:<br>
 
 This later input will determine the size of the randomly moving pixel(s) on the screen – whereas size 1 is exactly the size of a single pixel.<a href="#note1" id="note1ref"><sup>1</sup></a><br>
 These two inputs have soft error handling – in terms of the values – as the program will display a warning message if the number and/or the size of the pixels are above a predetermined threshold, but would still allow those higher numbers to be entered and will attempt to run the code.<a href="#note1" id="note1ref"><sup>2</sup></a><br>
-Once the number and the size of the pixel(s) are added by the user, the pixel(s) will start to move randomly and colour the black background with the default greyish colour or randomly selected colours through the left and right cursor keys.<br>
-The up and down cursor keys can change the speed of the randomly moving pixel(s). Press and hold on these up and down keys will change the speed without repeated key presses.<br>
+Once the number and the size of pixel(s) are entered, the pixel(s) will start to move randomly and colour the black background with the default greyish colour or randomly selected colours via the left and right cursor keys.<br>
+The up and down cursor keys can change the speed of the randomly moving pixel(s). Press and hold on these up and down keys will change the speed without the need of repeated key presses.<br>
 
 When pixels collide, they change their movement randomly and would not go through each other. They cannot leave the boundary of the full screen either. Otherwise, they move freely, though randomly.<br>
 
@@ -38,7 +38,7 @@ Running of the program – pixel movement – can be paused and resumed with the
 The program will quit if the user closes the application or hits the Esc key, or when the pixel(s) manage to paint all of the black background with their trail.<br><br>
 
 ---
-### Additional information
+### Additional information / License
 
 There is only a single file called ***project.py*** which contains all the code.<br><br>
 The repository and script have the **'None License'** option, therefore, represents this default, non-permissive state, where the work remains under full control of the creator, with no granted permissions to others. All rights to the source code retained by the owner and no one may reproduce, distribute, or create derivative works from it.<br><br>
